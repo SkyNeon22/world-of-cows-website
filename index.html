@@ -4,17 +4,22 @@
 
 <head>
     <title>WORLD OF COWS!</title>
+
+    <meta name="description" content="WORLD OF COWS">
+    <meta name="keywords" content="COW, WORLD, COWS,WORLDOFCOWS">
+    <meta name="author" content="skyneon22">
+
 </head>
-<body>
+<body style="background-color: wheat;">
 
     <h1>WORLD OF COWS!</h1>
     <hr>
     <a href="https://uk.wikipedia.org/wiki/Корова" target=_blank>
-    <img src="images/cow.png" height="800" alt="This is a cow", title="This cow so cow">
+        <img src="images/cow.png" height="800" alt="This is a cow", title="This cow so cow">
     </a>
     <h1>COW</h1>
     <a href="https://uk.wikipedia.org/wiki/Корова" target=_blank>
-    <img src="images/grass.jpg" height="800" alt="This is a cow", title="This cow so cow">
+        <img src="images/grass.jpg" height="800" alt="This is a cow", title="This cow so cow">
     </a>
     <hr>
     <h1>MOOO</h1>
@@ -35,7 +40,7 @@
     </ol>
 
     <hr>
-
+    <div style="background-color: rgb(252, 231, 111);">
     <h1>When WORLD OF COWS is working</h1>
 
     <table>
@@ -48,16 +53,59 @@
             <th>Saturday</th>
             <th>Sunday</th>
         </tr>
-        <tr bgcolor="lightgray">
+        <tr bgcolor="lightgray" align="center">
             <td>working</td>
             <td>working</td>
             <td>working</td>
             <td>working</td>
             <td>working</td>
-            <td>not working</td>
-            <td>not working</td>
+            <td>working</td>
+            <td>working</td>
         </tr>
     </table>
+
+    <p><h1>MORE COWS?<span style="color: rgb(0, 255, 0);">YES!</span></h1></p>
+    </div>
+
+    <hr>
+    
+    <button onclick="doSomething()" style="background-color: rgb(87, 87, 87);color: rgb(0, 255, 34); border-radius:5px;">cows</button>
+
+    <p id="cow"><h1>Cows?</h1></p>
+    
+    <script>
+        function doSomething(){
+            document.getElementById("cow").innerHTML = "YES!";
+        }
+    </script>
+
+    <hr>
+
+    <form>
+
+        <div>
+            <label for="spcow">spongebob or cow</label>
+            <input type="text" id="spcow" name="spcow" placeholder="spongebob">
+        </div> 
+        
+        <br>
+
+        <div>
+            <label for="pcow">patrick or cow</label>
+            <input type="text" id="pcow" name="pcow" placeholder="patrick">
+        </div>
+
+        <div>
+            <input type="reset">
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
 
 </body>
 
