@@ -1,5 +1,5 @@
 # world-of-cows-website
-funny website made in 30 minutes
+funny website made in 1 hour
 
 That site is only a joke.
-Nothing special,just a joke.
+Anyone can use code.
